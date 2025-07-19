@@ -1,7 +1,6 @@
 {
   "name": "weather",
   "homepage": "https://Ramani13.github.io/Weather-app",
-
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-"deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "axios": "^1.10.0",
